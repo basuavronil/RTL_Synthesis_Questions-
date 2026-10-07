@@ -7,12 +7,12 @@ A quick-reference guide for hardware design engineers detailing how common RTL c
 | Issue | Synthesis Side | Simulation Side | Primary Classification |
 | :--- | :--- | :--- | :--- |
 | **Inferred Latch** | `Warning` | `Ignored` | Synthesis Warning / Design Flaw |
-| **Width Mismatch** | `Error` | `Error` | Compilation / Synthesis Error |
+| **Width Mismatch** | `Warning` | `Warning` | Compilation / Synthesis Error |
 | **Combinational Feedback** | `Error` | `Error` | Synthesis & Simulation Error |
 | **Undriven Input** | `Warning` | `Warning` | Simulation Warning / Design Flaw |
-| **Incomplete Sensitivity List** | `Ignored` | `Error` | Simulation / Functional Bug |
+| **Incomplete Sensitivity List** | `Ignored` | `Ignored` | Simulation / Functional Bug |
 | **Multi-Driven Issues** | `Error` | `Error` | Synthesis & Simulation Error |
-| **Glitch / Combinational Clock** | `Error` | `Error` | Timing / Design Hazard |
+| **Glitch / Combinational Clock** | `Qarning` | `Error` | Timing / Design Hazard |
 
 ---
 
